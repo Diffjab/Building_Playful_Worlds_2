@@ -14,7 +14,7 @@ public class Pouder_Pickup : MonoBehaviour {
 	void Update () {
         if (pickupslot == true)
         {
-            Player.pouder = 1;
+            Player pouder = true;
             Destroy(gameObject);
         }
 	}

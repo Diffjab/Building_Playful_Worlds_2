@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-    public int pouder;
+    public bool pouder = false;
+    public bool givepouder = false;
 	// Use this for initialization
 	void Start () {
-        pouder = 1;
+        pouder = false;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (pouder == 1)
+	public void Update () {
+		if (pouder == true)
         {
-            give_pouder = true;
+            givepouder = true;
         }
 	}
 }
