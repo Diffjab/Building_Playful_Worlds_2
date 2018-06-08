@@ -4,18 +4,32 @@ using UnityEngine;
 
 public class Pouder_Pickup : MonoBehaviour {
     public bool pickupslot = false;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (pickupslot == true)
+    bool pickup = false;
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Player pouder = true;
+            pickup = true;
+
+        }
+        if (pickup == true)
+        {
+            Pickup();
+            Player.pouder = true;
+
+        }
+    }
+
+   
+    void Update()
+    {
+        
+    }
+        void Pickup()
+        {
+            Debug.Log("picked up");
+
             Destroy(gameObject);
         }
-	}
+    
 }

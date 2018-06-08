@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: 7341ab1234b78f745bcb8c0b732bcbce
+timeCreated: 1528145420
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cannon
+    100002: Cannon_try27
+    100004: Cannon_try28
+    100006: Cannon_try29
+    100008: Cannon_try30
+    100010: Cannon_try31
+    100012: Cannon_try32
+    100014: Cannon_try33
+    100016: Cannon_try34
+    100018: Cannon_try35
+    100020: Cannon_try36
+    100022: Cannon_try37
+    100024: Cannon_try38
+    100026: Cannon_try39
+    100028: Cannon_try40
+    100030: Cannon_try41
+    100032: Cannon_try42
+    100034: Cannon_try43
+    100036: Cannon_try44
+    100038: Cannon_try45
+    100040: Cannon_try46
+    100042: Captains_Quaters1
+    100044: //RootNode
+    100046: Frigatt
+    100048: Lower_Deck1
+    100050: Main_Mast1
+    100052: MidShips_Deck1
+    100054: pCube16
+    100056: pCylinder12
+    100058: pCylinder12 1
+    100060: pCylinder12 10
+    100062: pCylinder12 11
+    100064: pCylinder12 12
+    100066: pCylinder12 13
+    100068: pCylinder12 14
+    100070: pCylinder12 15
+    100072: pCylinder12 16
+    100074: pCylinder12 17
+    100076: pCylinder12 18
+    100078: pCylinder12 19
+    100080: pCylinder12 2
+    100082: pCylinder12 3
+    100084: pCylinder12 4
+    100086: pCylinder12 5
+    100088: pCylinder12 6
+    100090: pCylinder12 7
+    100092: pCylinder12 8
+    100094: pCylinder12 9
+    100096: pCylinder13
+    100098: pCylinder13 1
+    100100: pCylinder13 10
+    100102: pCylinder13 11
+    100104: pCylinder13 12
+    100106: pCylinder13 13
+    100108: pCylinder13 14
+    100110: pCylinder13 15
+    100112: pCylinder13 16
+    100114: pCylinder13 17
+    100116: pCylinder13 18
+    100118: pCylinder13 19
+    100120: pCylinder13 2
+    100122: pCylinder13 3
+    100124: pCylinder13 4
+    100126: pCylinder13 5
+    100128: pCylinder13 6
+    100130: pCylinder13 7
+    100132: pCylinder13 8
+    100134: pCylinder13 9
+    100136: pCylinder14
+    100138: pCylinder14 1
+    100140: pCylinder14 10
+    100142: pCylinder14 11
+    100144: pCylinder14 12
+    100146: pCylinder14 13
+    100148: pCylinder14 14
+    100150: pCylinder14 15
+    100152: pCylinder14 16
+    100154: pCylinder14 17
+    100156: pCylinder14 18
+    100158: pCylinder14 19
+    100160: pCylinder14 2
+    100162: pCylinder14 3
+    100164: pCylinder14 4
+    100166: pCylinder14 5
+    100168: pCylinder14 6
+    100170: pCylinder14 7
+    100172: pCylinder14 8
+    100174: pCylinder14 9
+    100176: pCylinder15
+    100178: pCylinder15 1
+    100180: pCylinder15 10
+    100182: pCylinder15 11
+    100184: pCylinder15 12
+    100186: pCylinder15 13
+    100188: pCylinder15 14
+    100190: pCylinder15 15
+    100192: pCylinder15 16
+    100194: pCylinder15 17
+    100196: pCylinder15 18
+    100198: pCylinder15 19
+    100200: pCylinder15 2
+    100202: pCylinder15 3
+    100204: pCylinder15 4
+    100206: pCylinder15 5
+    100208: pCylinder15 6
+    100210: pCylinder15 7
+    100212: pCylinder15 8
+    100214: pCylinder15 9
+    100216: pCylinder16
+    100218: pCylinder16 1
+    100220: pCylinder16 10
+    100222: pCylinder16 11
+    100224: pCylinder16 12
+    100226: pCylinder16 13
+    100228: pCylinder16 14
+    100230: pCylinder16 15
+    100232: pCylinder16 16
+    100234: pCylinder16 17
+    100236: pCylinder16 18
+    100238: pCylinder16 2
+    100240: pCylinder16 3
+    100242: pCylinder16 4
+    100244: pCylinder16 5
+    100246: pCylinder16 6
+    100248: pCylinder16 7
+    100250: pCylinder16 8
+    100252: pCylinder16 9
+    100254: pCylinder3
+    100256: pCylinder3 1
+    100258: pCylinder3 10
+    100260: pCylinder3 11
+    100262: pCylinder3 12
+    100264: pCylinder3 13
+    100266: pCylinder3 14
+    100268: pCylinder3 15
+    100270: pCylinder3 16
+    100272: pCylinder3 17
+    100274: pCylinder3 18
+    100276: pCylinder3 19
+    100278: pCylinder3 2
+    100280: pCylinder3 3
+    100282: pCylinder3 4
+    100284: pCylinder3 5
+    100286: pCylinder3 6
+    100288: pCylinder3 7
+    100290: pCylinder3 8
+    100292: pCylinder3 9
+    100294: polySurface16
+    100296: polySurface16 1
+    100298: polySurface16 10
+    100300: polySurface16 11
+    100302: polySurface16 12
+    100304: polySurface16 13
+    100306: polySurface16 14
+    100308: polySurface16 15
+    100310: polySurface16 16
+    100312: polySurface16 17
+    100314: polySurface16 18
+    100316: polySurface16 19
+    100318: polySurface16 2
+    100320: polySurface16 3
+    100322: polySurface16 4
+    100324: polySurface16 5
+    100326: polySurface16 6
+    100328: polySurface16 7
+    100330: polySurface16 8
+    100332: polySurface16 9
+    100334: polySurface17
+    100336: polySurface17 1
+    100338: polySurface17 10
+    100340: polySurface17 11
+    100342: polySurface17 12
+    100344: polySurface17 13
+    100346: polySurface17 14
+    100348: polySurface17 15
+    100350: polySurface17 16
+    100352: polySurface17 17
+    100354: polySurface17 18
+    100356: polySurface17 19
+    100358: polySurface17 2
+    100360: polySurface17 3
+    100362: polySurface17 4
+    100364: polySurface17 5
+    100366: polySurface17 6
+    100368: polySurface17 7
+    100370: polySurface17 8
+    100372: polySurface17 9
+    100374: polySurface18
+    100376: polySurface18 1
+    100378: polySurface18 10
+    100380: polySurface18 11
+    100382: polySurface18 12
+    100384: polySurface18 13
+    100386: polySurface18 14
+    100388: polySurface18 15
+    100390: polySurface18 16
+    100392: polySurface18 17
+    100394: polySurface18 18
+    100396: polySurface18 19
+    100398: polySurface18 2
+    100400: polySurface18 3
+    100402: polySurface18 4
+    100404: polySurface18 5
+    100406: polySurface18 6
+    100408: polySurface18 7
+    100410: polySurface18 8
+    100412: polySurface18 9
+    100414: polySurface64
+    100416: Quater_Deck1
+    100418: Second_Gun_Deck1
+    100420: Vlag_Mast1
+    100422: Voor_Mast1
+    100424: Voorsteven_Mast1
+    100426: Windows1
+    400000: cannon
+    400002: Cannon_try27
+    400004: Cannon_try28
+    400006: Cannon_try29
+    400008: Cannon_try30
+    400010: Cannon_try31
+    400012: Cannon_try32
+    400014: Cannon_try33
+    400016: Cannon_try34
+    400018: Cannon_try35
+    400020: Cannon_try36
+    400022: Cannon_try37
+    400024: Cannon_try38
+    400026: Cannon_try39
+    400028: Cannon_try40
+    400030: Cannon_try41
+    400032: Cannon_try42
+    400034: Cannon_try43
+    400036: Cannon_try44
+    400038: Cannon_try45
+    400040: Cannon_try46
+    400042: Captains_Quaters1
+    400044: //RootNode
+    400046: Frigatt
+    400048: Lower_Deck1
+    400050: Main_Mast1
+    400052: MidShips_Deck1
+    400054: pCube16
+    400056: pCylinder12
+    400058: pCylinder12 1
+    400060: pCylinder12 10
+    400062: pCylinder12 11
+    400064: pCylinder12 12
+    400066: pCylinder12 13
+    400068: pCylinder12 14
+    400070: pCylinder12 15
+    400072: pCylinder12 16
+    400074: pCylinder12 17
+    400076: pCylinder12 18
+    400078: pCylinder12 19
+    400080: pCylinder12 2
+    400082: pCylinder12 3
+    400084: pCylinder12 4
+    400086: pCylinder12 5
+    400088: pCylinder12 6
+    400090: pCylinder12 7
+    400092: pCylinder12 8
+    400094: pCylinder12 9
+    400096: pCylinder13
+    400098: pCylinder13 1
+    400100: pCylinder13 10
+    400102: pCylinder13 11
+    400104: pCylinder13 12
+    400106: pCylinder13 13
+    400108: pCylinder13 14
+    400110: pCylinder13 15
+    400112: pCylinder13 16
+    400114: pCylinder13 17
+    400116: pCylinder13 18
+    400118: pCylinder13 19
+    400120: pCylinder13 2
+    400122: pCylinder13 3
+    400124: pCylinder13 4
+    400126: pCylinder13 5
+    400128: pCylinder13 6
+    400130: pCylinder13 7
+    400132: pCylinder13 8
+    400134: pCylinder13 9
+    400136: pCylinder14
+    400138: pCylinder14 1
+    400140: pCylinder14 10
+    400142: pCylinder14 11
+    400144: pCylinder14 12
+    400146: pCylinder14 13
+    400148: pCylinder14 14
+    400150: pCylinder14 15
+    400152: pCylinder14 16
+    400154: pCylinder14 17
+    400156: pCylinder14 18
+    400158: pCylinder14 19
+    400160: pCylinder14 2
+    400162: pCylinder14 3
+    400164: pCylinder14 4
+    400166: pCylinder14 5
+    400168: pCylinder14 6
+    400170: pCylinder14 7
+    400172: pCylinder14 8
+    400174: pCylinder14 9
+    400176: pCylinder15
+    400178: pCylinder15 1
+    400180: pCylinder15 10
+    400182: pCylinder15 11
+    400184: pCylinder15 12
+    400186: pCylinder15 13
+    400188: pCylinder15 14
+    400190: pCylinder15 15
+    400192: pCylinder15 16
+    400194: pCylinder15 17
+    400196: pCylinder15 18
+    400198: pCylinder15 19
+    400200: pCylinder15 2
+    400202: pCylinder15 3
+    400204: pCylinder15 4
+    400206: pCylinder15 5
+    400208: pCylinder15 6
+    400210: pCylinder15 7
+    400212: pCylinder15 8
+    400214: pCylinder15 9
+    400216: pCylinder16
+    400218: pCylinder16 1
+    400220: pCylinder16 10
+    400222: pCylinder16 11
+    400224: pCylinder16 12
+    400226: pCylinder16 13
+    400228: pCylinder16 14
+    400230: pCylinder16 15
+    400232: pCylinder16 16
+    400234: pCylinder16 17
+    400236: pCylinder16 18
+    400238: pCylinder16 2
+    400240: pCylinder16 3
+    400242: pCylinder16 4
+    400244: pCylinder16 5
+    400246: pCylinder16 6
+    400248: pCylinder16 7
+    400250: pCylinder16 8
+    400252: pCylinder16 9
+    400254: pCylinder3
+    400256: pCylinder3 1
+    400258: pCylinder3 10
+    400260: pCylinder3 11
+    400262: pCylinder3 12
+    400264: pCylinder3 13
+    400266: pCylinder3 14
+    400268: pCylinder3 15
+    400270: pCylinder3 16
+    400272: pCylinder3 17
+    400274: pCylinder3 18
+    400276: pCylinder3 19
+    400278: pCylinder3 2
+    400280: pCylinder3 3
+    400282: pCylinder3 4
+    400284: pCylinder3 5
+    400286: pCylinder3 6
+    400288: pCylinder3 7
+    400290: pCylinder3 8
+    400292: pCylinder3 9
+    400294: polySurface16
+    400296: polySurface16 1
+    400298: polySurface16 10
+    400300: polySurface16 11
+    400302: polySurface16 12
+    400304: polySurface16 13
+    400306: polySurface16 14
+    400308: polySurface16 15
+    400310: polySurface16 16
+    400312: polySurface16 17
+    400314: polySurface16 18
+    400316: polySurface16 19
+    400318: polySurface16 2
+    400320: polySurface16 3
+    400322: polySurface16 4
+    400324: polySurface16 5
+    400326: polySurface16 6
+    400328: polySurface16 7
+    400330: polySurface16 8
+    400332: polySurface16 9
+    400334: polySurface17
+    400336: polySurface17 1
+    400338: polySurface17 10
+    400340: polySurface17 11
+    400342: polySurface17 12
+    400344: polySurface17 13
+    400346: polySurface17 14
+    400348: polySurface17 15
+    400350: polySurface17 16
+    400352: polySurface17 17
+    400354: polySurface17 18
+    400356: polySurface17 19
+    400358: polySurface17 2
+    400360: polySurface17 3
+    400362: polySurface17 4
+    400364: polySurface17 5
+    400366: polySurface17 6
+    400368: polySurface17 7
+    400370: polySurface17 8
+    400372: polySurface17 9
+    400374: polySurface18
+    400376: polySurface18 1
+    400378: polySurface18 10
+    400380: polySurface18 11
+    400382: polySurface18 12
+    400384: polySurface18 13
+    400386: polySurface18 14
+    400388: polySurface18 15
+    400390: polySurface18 16
+    400392: polySurface18 17
+    400394: polySurface18 18
+    400396: polySurface18 19
+    400398: polySurface18 2
+    400400: polySurface18 3
+    400402: polySurface18 4
+    400404: polySurface18 5
+    400406: polySurface18 6
+    400408: polySurface18 7
+    400410: polySurface18 8
+    400412: polySurface18 9
+    400414: polySurface64
+    400416: Quater_Deck1
+    400418: Second_Gun_Deck1
+    400420: Vlag_Mast1
+    400422: Voor_Mast1
+    400424: Voorsteven_Mast1
+    400426: Windows1
+    2100000: lambert2
+    2100002: Canon1
+    2100004: Cannon2
+    2100006: lambert1
+    2300000: cannon
+    2300002: Cannon_try27
+    2300004: Cannon_try28
+    2300006: Cannon_try29
+    2300008: Cannon_try30
+    2300010: Cannon_try31
+    2300012: Cannon_try32
+    2300014: Cannon_try33
+    2300016: Cannon_try34
+    2300018: Cannon_try35
+    2300020: Cannon_try36
+    2300022: Cannon_try37
+    2300024: Cannon_try38
+    2300026: Cannon_try39
+    2300028: Cannon_try40
+    2300030: Cannon_try41
+    2300032: Cannon_try42
+    2300034: Cannon_try43
+    2300036: Cannon_try44
+    2300038: Cannon_try45
+    2300040: Cannon_try46
+    2300042: Captains_Quaters1
+    2300044: Frigatt
+    2300046: Lower_Deck1
+    2300048: Main_Mast1
+    2300050: MidShips_Deck1
+    2300052: pCube16
+    2300054: pCylinder12
+    2300056: pCylinder12 1
+    2300058: pCylinder12 10
+    2300060: pCylinder12 11
+    2300062: pCylinder12 12
+    2300064: pCylinder12 13
+    2300066: pCylinder12 14
+    2300068: pCylinder12 15
+    2300070: pCylinder12 16
+    2300072: pCylinder12 17
+    2300074: pCylinder12 18
+    2300076: pCylinder12 19
+    2300078: pCylinder12 2
+    2300080: pCylinder12 3
+    2300082: pCylinder12 4
+    2300084: pCylinder12 5
+    2300086: pCylinder12 6
+    2300088: pCylinder12 7
+    2300090: pCylinder12 8
+    2300092: pCylinder12 9
+    2300094: pCylinder13
+    2300096: pCylinder13 1
+    2300098: pCylinder13 10
+    2300100: pCylinder13 11
+    2300102: pCylinder13 12
+    2300104: pCylinder13 13
+    2300106: pCylinder13 14
+    2300108: pCylinder13 15
+    2300110: pCylinder13 16
+    2300112: pCylinder13 17
+    2300114: pCylinder13 18
+    2300116: pCylinder13 19
+    2300118: pCylinder13 2
+    2300120: pCylinder13 3
+    2300122: pCylinder13 4
+    2300124: pCylinder13 5
+    2300126: pCylinder13 6
+    2300128: pCylinder13 7
+    2300130: pCylinder13 8
+    2300132: pCylinder13 9
+    2300134: pCylinder14
+    2300136: pCylinder14 1
+    2300138: pCylinder14 10
+    2300140: pCylinder14 11
+    2300142: pCylinder14 12
+    2300144: pCylinder14 13
+    2300146: pCylinder14 14
+    2300148: pCylinder14 15
+    2300150: pCylinder14 16
+    2300152: pCylinder14 17
+    2300154: pCylinder14 18
+    2300156: pCylinder14 19
+    2300158: pCylinder14 2
+    2300160: pCylinder14 3
+    2300162: pCylinder14 4
+    2300164: pCylinder14 5
+    2300166: pCylinder14 6
+    2300168: pCylinder14 7
+    2300170: pCylinder14 8
+    2300172: pCylinder14 9
+    2300174: pCylinder15
+    2300176: pCylinder15 1
+    2300178: pCylinder15 10
+    2300180: pCylinder15 11
+    2300182: pCylinder15 12
+    2300184: pCylinder15 13
+    2300186: pCylinder15 14
+    2300188: pCylinder15 15
+    2300190: pCylinder15 16
+    2300192: pCylinder15 17
+    2300194: pCylinder15 18
+    2300196: pCylinder15 19
+    2300198: pCylinder15 2
+    2300200: pCylinder15 3
+    2300202: pCylinder15 4
+    2300204: pCylinder15 5
+    2300206: pCylinder15 6
+    2300208: pCylinder15 7
+    2300210: pCylinder15 8
+    2300212: pCylinder15 9
+    2300214: pCylinder16
+    2300216: pCylinder16 1
+    2300218: pCylinder16 10
+    2300220: pCylinder16 11
+    2300222: pCylinder16 12
+    2300224: pCylinder16 13
+    2300226: pCylinder16 14
+    2300228: pCylinder16 15
+    2300230: pCylinder16 16
+    2300232: pCylinder16 17
+    2300234: pCylinder16 18
+    2300236: pCylinder16 2
+    2300238: pCylinder16 3
+    2300240: pCylinder16 4
+    2300242: pCylinder16 5
+    2300244: pCylinder16 6
+    2300246: pCylinder16 7
+    2300248: pCylinder16 8
+    2300250: pCylinder16 9
+    2300252: pCylinder3
+    2300254: pCylinder3 1
+    2300256: pCylinder3 10
+    2300258: pCylinder3 11
+    2300260: pCylinder3 12
+    2300262: pCylinder3 13
+    2300264: pCylinder3 14
+    2300266: pCylinder3 15
+    2300268: pCylinder3 16
+    2300270: pCylinder3 17
+    2300272: pCylinder3 18
+    2300274: pCylinder3 19
+    2300276: pCylinder3 2
+    2300278: pCylinder3 3
+    2300280: pCylinder3 4
+    2300282: pCylinder3 5
+    2300284: pCylinder3 6
+    2300286: pCylinder3 7
+    2300288: pCylinder3 8
+    2300290: pCylinder3 9
+    2300292: polySurface16
+    2300294: polySurface16 1
+    2300296: polySurface16 10
+    2300298: polySurface16 11
+    2300300: polySurface16 12
+    2300302: polySurface16 13
+    2300304: polySurface16 14
+    2300306: polySurface16 15
+    2300308: polySurface16 16
+    2300310: polySurface16 17
+    2300312: polySurface16 18
+    2300314: polySurface16 19
+    2300316: polySurface16 2
+    2300318: polySurface16 3
+    2300320: polySurface16 4
+    2300322: polySurface16 5
+    2300324: polySurface16 6
+    2300326: polySurface16 7
+    2300328: polySurface16 8
+    2300330: polySurface16 9
+    2300332: polySurface17
+    2300334: polySurface17 1
+    2300336: polySurface17 10
+    2300338: polySurface17 11
+    2300340: polySurface17 12
+    2300342: polySurface17 13
+    2300344: polySurface17 14
+    2300346: polySurface17 15
+    2300348: polySurface17 16
+    2300350: polySurface17 17
+    2300352: polySurface17 18
+    2300354: polySurface17 19
+    2300356: polySurface17 2
+    2300358: polySurface17 3
+    2300360: polySurface17 4
+    2300362: polySurface17 5
+    2300364: polySurface17 6
+    2300366: polySurface17 7
+    2300368: polySurface17 8
+    2300370: polySurface17 9
+    2300372: polySurface18
+    2300374: polySurface18 1
+    2300376: polySurface18 10
+    2300378: polySurface18 11
+    2300380: polySurface18 12
+    2300382: polySurface18 13
+    2300384: polySurface18 14
+    2300386: polySurface18 15
+    2300388: polySurface18 16
+    2300390: polySurface18 17
+    2300392: polySurface18 18
+    2300394: polySurface18 19
+    2300396: polySurface18 2
+    2300398: polySurface18 3
+    2300400: polySurface18 4
+    2300402: polySurface18 5
+    2300404: polySurface18 6
+    2300406: polySurface18 7
+    2300408: polySurface18 8
+    2300410: polySurface18 9
+    2300412: polySurface64
+    2300414: Quater_Deck1
+    2300416: Second_Gun_Deck1
+    2300418: Vlag_Mast1
+    2300420: Voor_Mast1
+    2300422: Voorsteven_Mast1
+    2300424: Windows1
+    3300000: cannon
+    3300002: Cannon_try27
+    3300004: Cannon_try28
+    3300006: Cannon_try29
+    3300008: Cannon_try30
+    3300010: Cannon_try31
+    3300012: Cannon_try32
+    3300014: Cannon_try33
+    3300016: Cannon_try34
+    3300018: Cannon_try35
+    3300020: Cannon_try36
+    3300022: Cannon_try37
+    3300024: Cannon_try38
+    3300026: Cannon_try39
+    3300028: Cannon_try40
+    3300030: Cannon_try41
+    3300032: Cannon_try42
+    3300034: Cannon_try43
+    3300036: Cannon_try44
+    3300038: Cannon_try45
+    3300040: Cannon_try46
+    3300042: Captains_Quaters1
+    3300044: Frigatt
+    3300046: Lower_Deck1
+    3300048: Main_Mast1
+    3300050: MidShips_Deck1
+    3300052: pCube16
+    3300054: pCylinder12
+    3300056: pCylinder12 1
+    3300058: pCylinder12 10
+    3300060: pCylinder12 11
+    3300062: pCylinder12 12
+    3300064: pCylinder12 13
+    3300066: pCylinder12 14
+    3300068: pCylinder12 15
+    3300070: pCylinder12 16
+    3300072: pCylinder12 17
+    3300074: pCylinder12 18
+    3300076: pCylinder12 19
+    3300078: pCylinder12 2
+    3300080: pCylinder12 3
+    3300082: pCylinder12 4
+    3300084: pCylinder12 5
+    3300086: pCylinder12 6
+    3300088: pCylinder12 7
+    3300090: pCylinder12 8
+    3300092: pCylinder12 9
+    3300094: pCylinder13
+    3300096: pCylinder13 1
+    3300098: pCylinder13 10
+    3300100: pCylinder13 11
+    3300102: pCylinder13 12
+    3300104: pCylinder13 13
+    3300106: pCylinder13 14
+    3300108: pCylinder13 15
+    3300110: pCylinder13 16
+    3300112: pCylinder13 17
+    3300114: pCylinder13 18
+    3300116: pCylinder13 19
+    3300118: pCylinder13 2
+    3300120: pCylinder13 3
+    3300122: pCylinder13 4
+    3300124: pCylinder13 5
+    3300126: pCylinder13 6
+    3300128: pCylinder13 7
+    3300130: pCylinder13 8
+    3300132: pCylinder13 9
+    3300134: pCylinder14
+    3300136: pCylinder14 1
+    3300138: pCylinder14 10
+    3300140: pCylinder14 11
+    3300142: pCylinder14 12
+    3300144: pCylinder14 13
+    3300146: pCylinder14 14
+    3300148: pCylinder14 15
+    3300150: pCylinder14 16
+    3300152: pCylinder14 17
+    3300154: pCylinder14 18
+    3300156: pCylinder14 19
+    3300158: pCylinder14 2
+    3300160: pCylinder14 3
+    3300162: pCylinder14 4
+    3300164: pCylinder14 5
+    3300166: pCylinder14 6
+    3300168: pCylinder14 7
+    3300170: pCylinder14 8
+    3300172: pCylinder14 9
+    3300174: pCylinder15
+    3300176: pCylinder15 1
+    3300178: pCylinder15 10
+    3300180: pCylinder15 11
+    3300182: pCylinder15 12
+    3300184: pCylinder15 13
+    3300186: pCylinder15 14
+    3300188: pCylinder15 15
+    3300190: pCylinder15 16
+    3300192: pCylinder15 17
+    3300194: pCylinder15 18
+    3300196: pCylinder15 19
+    3300198: pCylinder15 2
+    3300200: pCylinder15 3
+    3300202: pCylinder15 4
+    3300204: pCylinder15 5
+    3300206: pCylinder15 6
+    3300208: pCylinder15 7
+    3300210: pCylinder15 8
+    3300212: pCylinder15 9
+    3300214: pCylinder16
+    3300216: pCylinder16 1
+    3300218: pCylinder16 10
+    3300220: pCylinder16 11
+    3300222: pCylinder16 12
+    3300224: pCylinder16 13
+    3300226: pCylinder16 14
+    3300228: pCylinder16 15
+    3300230: pCylinder16 16
+    3300232: pCylinder16 17
+    3300234: pCylinder16 18
+    3300236: pCylinder16 2
+    3300238: pCylinder16 3
+    3300240: pCylinder16 4
+    3300242: pCylinder16 5
+    3300244: pCylinder16 6
+    3300246: pCylinder16 7
+    3300248: pCylinder16 8
+    3300250: pCylinder16 9
+    3300252: pCylinder3
+    3300254: pCylinder3 1
+    3300256: pCylinder3 10
+    3300258: pCylinder3 11
+    3300260: pCylinder3 12
+    3300262: pCylinder3 13
+    3300264: pCylinder3 14
+    3300266: pCylinder3 15
+    3300268: pCylinder3 16
+    3300270: pCylinder3 17
+    3300272: pCylinder3 18
+    3300274: pCylinder3 19
+    3300276: pCylinder3 2
+    3300278: pCylinder3 3
+    3300280: pCylinder3 4
+    3300282: pCylinder3 5
+    3300284: pCylinder3 6
+    3300286: pCylinder3 7
+    3300288: pCylinder3 8
+    3300290: pCylinder3 9
+    3300292: polySurface16
+    3300294: polySurface16 1
+    3300296: polySurface16 10
+    3300298: polySurface16 11
+    3300300: polySurface16 12
+    3300302: polySurface16 13
+    3300304: polySurface16 14
+    3300306: polySurface16 15
+    3300308: polySurface16 16
+    3300310: polySurface16 17
+    3300312: polySurface16 18
+    3300314: polySurface16 19
+    3300316: polySurface16 2
+    3300318: polySurface16 3
+    3300320: polySurface16 4
+    3300322: polySurface16 5
+    3300324: polySurface16 6
+    3300326: polySurface16 7
+    3300328: polySurface16 8
+    3300330: polySurface16 9
+    3300332: polySurface17
+    3300334: polySurface17 1
+    3300336: polySurface17 10
+    3300338: polySurface17 11
+    3300340: polySurface17 12
+    3300342: polySurface17 13
+    3300344: polySurface17 14
+    3300346: polySurface17 15
+    3300348: polySurface17 16
+    3300350: polySurface17 17
+    3300352: polySurface17 18
+    3300354: polySurface17 19
+    3300356: polySurface17 2
+    3300358: polySurface17 3
+    3300360: polySurface17 4
+    3300362: polySurface17 5
+    3300364: polySurface17 6
+    3300366: polySurface17 7
+    3300368: polySurface17 8
+    3300370: polySurface17 9
+    3300372: polySurface18
+    3300374: polySurface18 1
+    3300376: polySurface18 10
+    3300378: polySurface18 11
+    3300380: polySurface18 12
+    3300382: polySurface18 13
+    3300384: polySurface18 14
+    3300386: polySurface18 15
+    3300388: polySurface18 16
+    3300390: polySurface18 17
+    3300392: polySurface18 18
+    3300394: polySurface18 19
+    3300396: polySurface18 2
+    3300398: polySurface18 3
+    3300400: polySurface18 4
+    3300402: polySurface18 5
+    3300404: polySurface18 6
+    3300406: polySurface18 7
+    3300408: polySurface18 8
+    3300410: polySurface18 9
+    3300412: polySurface64
+    3300414: Quater_Deck1
+    3300416: Second_Gun_Deck1
+    3300418: Vlag_Mast1
+    3300420: Voor_Mast1
+    3300422: Voorsteven_Mast1
+    3300424: Windows1
+    4300000: Frigatt
+    4300002: MidShips_Deck1
+    4300004: Quater_Deck1
+    4300006: Voor_Mast1
+    4300008: Captains_Quaters1
+    4300010: polySurface64
+    4300012: Windows1
+    4300014: Second_Gun_Deck1
+    4300016: Vlag_Mast1
+    4300018: Main_Mast1
+    4300020: Voorsteven_Mast1
+    4300022: pCube16
+    4300024: Lower_Deck1
+    4300026: Cannon_try46
+    4300028: cannon
+    4300030: pCylinder3
+    4300032: polySurface18
+    4300034: pCylinder15
+    4300036: polySurface17
+    4300038: pCylinder14
+    4300040: pCylinder12
+    4300042: polySurface16
+    4300044: pCylinder13
+    4300046: Cannon_try27
+    4300048: pCylinder16
+    4300050: pCylinder3
+    4300052: polySurface18
+    4300054: pCylinder15
+    4300056: polySurface17
+    4300058: pCylinder14
+    4300060: pCylinder12
+    4300062: polySurface16
+    4300064: pCylinder13
+    4300066: Cannon_try28
+    4300068: pCylinder16
+    4300070: pCylinder3
+    4300072: polySurface18
+    4300074: pCylinder15
+    4300076: polySurface17
+    4300078: pCylinder14
+    4300080: pCylinder12
+    4300082: polySurface16
+    4300084: pCylinder13
+    4300086: Cannon_try29
+    4300088: pCylinder16
+    4300090: pCylinder3
+    4300092: polySurface18
+    4300094: pCylinder15
+    4300096: polySurface17
+    4300098: pCylinder14
+    4300100: pCylinder12
+    4300102: polySurface16
+    4300104: pCylinder13
+    4300106: Cannon_try30
+    4300108: pCylinder16
+    4300110: pCylinder3
+    4300112: polySurface18
+    4300114: pCylinder15
+    4300116: polySurface17
+    4300118: pCylinder14
+    4300120: pCylinder12
+    4300122: polySurface16
+    4300124: pCylinder13
+    4300126: Cannon_try31
+    4300128: pCylinder16
+    4300130: pCylinder3
+    4300132: polySurface18
+    4300134: pCylinder15
+    4300136: polySurface17
+    4300138: pCylinder14
+    4300140: pCylinder12
+    4300142: polySurface16
+    4300144: pCylinder13
+    4300146: Cannon_try32
+    4300148: pCylinder16
+    4300150: pCylinder3
+    4300152: polySurface18
+    4300154: pCylinder15
+    4300156: polySurface17
+    4300158: pCylinder14
+    4300160: pCylinder12
+    4300162: polySurface16
+    4300164: pCylinder13
+    4300166: Cannon_try33
+    4300168: pCylinder16
+    4300170: pCylinder3
+    4300172: polySurface18
+    4300174: pCylinder15
+    4300176: polySurface17
+    4300178: pCylinder14
+    4300180: pCylinder12
+    4300182: polySurface16
+    4300184: pCylinder13
+    4300186: Cannon_try34
+    4300188: pCylinder16
+    4300190: pCylinder3
+    4300192: polySurface18
+    4300194: pCylinder15
+    4300196: polySurface17
+    4300198: pCylinder14
+    4300200: pCylinder12
+    4300202: polySurface16
+    4300204: pCylinder13
+    4300206: Cannon_try35
+    4300208: pCylinder16
+    4300210: pCylinder3
+    4300212: polySurface18
+    4300214: pCylinder15
+    4300216: polySurface17
+    4300218: pCylinder14
+    4300220: pCylinder12
+    4300222: polySurface16
+    4300224: pCylinder13
+    4300226: Cannon_try36
+    4300228: pCylinder16
+    4300230: pCylinder3
+    4300232: polySurface18
+    4300234: pCylinder15
+    4300236: polySurface17
+    4300238: pCylinder14
+    4300240: pCylinder12
+    4300242: polySurface16
+    4300244: pCylinder13
+    4300246: Cannon_try37
+    4300248: pCylinder16
+    4300250: pCylinder3
+    4300252: polySurface18
+    4300254: pCylinder15
+    4300256: polySurface17
+    4300258: pCylinder14
+    4300260: pCylinder12
+    4300262: polySurface16
+    4300264: pCylinder13
+    4300266: Cannon_try38
+    4300268: pCylinder16
+    4300270: pCylinder3
+    4300272: polySurface18
+    4300274: pCylinder15
+    4300276: polySurface17
+    4300278: pCylinder14
+    4300280: pCylinder12
+    4300282: polySurface16
+    4300284: pCylinder13
+    4300286: Cannon_try39
+    4300288: pCylinder16
+    4300290: pCylinder3
+    4300292: polySurface18
+    4300294: pCylinder15
+    4300296: polySurface17
+    4300298: pCylinder14
+    4300300: pCylinder12
+    4300302: polySurface16
+    4300304: pCylinder13
+    4300306: Cannon_try40
+    4300308: pCylinder16
+    4300310: pCylinder3
+    4300312: polySurface18
+    4300314: pCylinder15
+    4300316: polySurface17
+    4300318: pCylinder14
+    4300320: pCylinder12
+    4300322: polySurface16
+    4300324: pCylinder13
+    4300326: Cannon_try41
+    4300328: pCylinder16
+    4300330: pCylinder3
+    4300332: polySurface18
+    4300334: pCylinder15
+    4300336: polySurface17
+    4300338: pCylinder14
+    4300340: pCylinder12
+    4300342: polySurface16
+    4300344: pCylinder13
+    4300346: Cannon_try42
+    4300348: pCylinder16
+    4300350: pCylinder3
+    4300352: polySurface18
+    4300354: pCylinder15
+    4300356: polySurface17
+    4300358: pCylinder14
+    4300360: pCylinder12
+    4300362: polySurface16
+    4300364: pCylinder13
+    4300366: Cannon_try43
+    4300368: pCylinder16
+    4300370: pCylinder3
+    4300372: polySurface18
+    4300374: pCylinder15
+    4300376: polySurface17
+    4300378: pCylinder14
+    4300380: pCylinder12
+    4300382: polySurface16
+    4300384: pCylinder13
+    4300386: Cannon_try44
+    4300388: pCylinder16
+    4300390: pCylinder3
+    4300392: polySurface18
+    4300394: pCylinder15
+    4300396: polySurface17
+    4300398: pCylinder14
+    4300400: pCylinder12
+    4300402: polySurface16
+    4300404: pCylinder13
+    4300406: Cannon_try45
+    4300408: pCylinder16
+    4300410: pCylinder3
+    4300412: polySurface18
+    4300414: pCylinder15
+    4300416: polySurface17
+    4300418: pCylinder14
+    4300420: pCylinder12
+    4300422: polySurface16
+    4300424: pCylinder13
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
