@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Fire_Triggers : MonoBehaviour {
-    public List<Collider> Triggers;
+    public List<Collider> EnemyFireTrigger;
 	// Use this for initialization
 	void Start () {
         Collider[] cols = GetComponents<Collider>();
@@ -17,4 +17,9 @@ public class Enemy_Fire_Triggers : MonoBehaviour {
 	void Update () {
 		
 	}
+    private void OnCollisionEnter(Collision collision)
+    {
+        //random event
+
+    }
 }

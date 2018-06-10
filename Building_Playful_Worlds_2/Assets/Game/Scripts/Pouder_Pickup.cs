@@ -3,21 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pouder_Pickup : MonoBehaviour {
-    public bool pickupslot = false;
     bool pickup = false;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            pickup = true;
-
-        }
-        if (pickup == true)
-        {
-            Pickup();
-            Player.pouder = true;
-
-        }
+        
     }
 
    
@@ -25,11 +14,18 @@ public class Pouder_Pickup : MonoBehaviour {
     {
         
     }
-        void Pickup()
+       
+    void Pickup()
+    {
+        if (GameObject.Find("Player").GetComponent<Player>().pouder)
         {
-            Debug.Log("picked up");
-
+            GameObject.Find("Player").GetComponent<Player>().pouder = true;
             Destroy(gameObject);
         }
-    
+        if (!GameObject.Find("Player").GetComponent<Player>().pouder)
+        {
+
+        }
+    }
+
 }
