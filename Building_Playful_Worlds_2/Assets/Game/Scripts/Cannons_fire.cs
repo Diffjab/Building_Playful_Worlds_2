@@ -13,6 +13,8 @@ public class Cannons_fire : MonoBehaviour {
     public float ReloadTime = 1f;
     public bool pouder = false;
     public bool HasFired = false;
+    public Rigidbody rb;
+    public ParticleSystem Fire_Smoke;
 
     private int Cannon_Fire;
     public AudioClip[] Shot;
@@ -25,8 +27,8 @@ public class Cannons_fire : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         // 	take pouder
-        
-	}
+        rb = GetComponent<Rigidbody>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -40,6 +42,13 @@ public class Cannons_fire : MonoBehaviour {
         
         
     }
+
+    private IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(6.5f);
+
+    }
+
     void CheckState()
     {
 
@@ -54,16 +63,18 @@ public class Cannons_fire : MonoBehaviour {
                 {
                     HasFired = false;
                     Fireing -= Time.deltaTime;
+                }
+                else
+                {
+                    
+                    
                     int index = Random.Range(0, Shot.Length);
                     Cannon_Shot = Shot[index];
                     int Guns = Random.Range(0, Cannons.Length);
                     Cannons[Guns].PlayOneShot(Cannon_Shot);
-                }
-                else
-                {
-                    HasFired = true;
+                    rb.AddForce(-transform.forward * 750, ForceMode.Force);
                     
-                                        
+                    HasFired = true;
                 }
                 
                 if (HasFired == true)
@@ -110,6 +121,7 @@ public class Cannons_fire : MonoBehaviour {
                 else
                 {
                     Currentstate = State.Fire;
+                    rb.AddForce(transform.forward * 750, ForceMode.Force);
                     Fireing = 0.3f;
                 }
                 break;
