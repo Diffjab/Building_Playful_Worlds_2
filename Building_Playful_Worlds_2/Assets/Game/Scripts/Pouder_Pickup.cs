@@ -4,27 +4,41 @@ using UnityEngine;
 
 public class Pouder_Pickup : MonoBehaviour {
     bool pickup = false;
-    private void OnTriggerEnter(Collider other)
+    public GameObject PouderCase;
+    public bool PouderPlayer;
+    public Collider Coll;
+
+    void Start()
     {
-        
+        PouderPlayer = GetComponent<Player>().pouder;
+        Debug.Log("got it");
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (Input.GetKey(KeyCode.E)== true)
+        {
+            PouderPlayer = true;
+            Debug.Log("E Pressed");
+        }
     }
 
    
     void Update()
     {
-        
+        Pickup();
     }
        
     void Pickup()
     {
-        if (GameObject.Find("Player").GetComponent<Player>().pouder)
+        if (PouderPlayer == true)
         {
             GameObject.Find("Player").GetComponent<Player>().pouder = true;
             Destroy(gameObject);
+            Debug.Log("Pouder!!");
         }
-        if (!GameObject.Find("Player").GetComponent<Player>().pouder)
+        if (PouderPlayer == false)
         {
-
+            Debug.Log("no pouderfound");
         }
     }
 

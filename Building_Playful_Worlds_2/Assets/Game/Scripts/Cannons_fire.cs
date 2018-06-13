@@ -15,6 +15,10 @@ public class Cannons_fire : MonoBehaviour {
     public bool HasFired = false;
     public Rigidbody rb;
     public ParticleSystem Fire_Smoke;
+    public int Recoil;
+    public Collider Coll;
+
+    Vector3 orignialPosition;
 
     private int Cannon_Fire;
     public AudioClip[] Shot;
@@ -28,10 +32,15 @@ public class Cannons_fire : MonoBehaviour {
 	void Start () {
         // 	take pouder
         rb = GetComponent<Rigidbody>();
+        orignialPosition = transform.position;
+        Currentstate = State.Reload;
     }
-	
-	// Update is called once per frame
-	void Update () {
+    void OnTriggerEnter(Collider other)
+    {
+        
+    }
+    // Update is called once per frame
+    void Update () {
         CheckState();
         /*if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -43,11 +52,11 @@ public class Cannons_fire : MonoBehaviour {
         
     }
 
-    private IEnumerator Cooldown()
+    /*private IEnumerator Cooldown()
     {
         yield return new WaitForSeconds(6.5f);
 
-    }
+    }*/
 
     void CheckState()
     {
@@ -72,7 +81,7 @@ public class Cannons_fire : MonoBehaviour {
                     Cannon_Shot = Shot[index];
                     int Guns = Random.Range(0, Cannons.Length);
                     Cannons[Guns].PlayOneShot(Cannon_Shot);
-                    rb.AddForce(-transform.forward * 750, ForceMode.Force);
+                    rb.AddForce(-transform.forward * Recoil, ForceMode.Force);
                     
                     HasFired = true;
                 }
@@ -120,9 +129,14 @@ public class Cannons_fire : MonoBehaviour {
                 }
                 else
                 {
-                    Currentstate = State.Fire;
-                    rb.AddForce(transform.forward * 750, ForceMode.Force);
-                    Fireing = 0.3f;
+
+                    //rb.AddForce(ransform.forward * 750, ForceMode.Force);
+                    transform.position = Vector3.Lerp( transform.position, orignialPosition, Time.deltaTime * 2);
+                    Fireing = Random.Range(0.5f, 2f);
+                    if (Vector3.Distance(transform.position, orignialPosition) < .5f)
+                    {
+                        Currentstate = State.Fire;
+                    }
                 }
                 break;
         }
