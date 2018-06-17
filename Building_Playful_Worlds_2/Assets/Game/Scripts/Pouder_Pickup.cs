@@ -7,27 +7,31 @@ public class Pouder_Pickup : MonoBehaviour {
     public GameObject PouderCase;
     public bool PouderPlayer;
     public Collider Coll;
+    
 
     void Start()
     {
         PouderPlayer = GetComponent<Player>().pouder;
         Debug.Log("got it");
     }
-    void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider Coll)
     {
-        if (Input.GetKey(KeyCode.E)== true)
+
+        Debug.Log("entered");
+        if (Input.GetKeyDown(KeyCode.E))
         {
             PouderPlayer = true;
             Debug.Log("E Pressed");
         }
     }
 
-   
     void Update()
     {
+        
         Pickup();
     }
-       
+    
     void Pickup()
     {
         if (PouderPlayer == true)

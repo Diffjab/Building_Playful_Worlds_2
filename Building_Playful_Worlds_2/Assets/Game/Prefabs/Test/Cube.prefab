@@ -133,6 +133,8 @@ MonoBehaviour:
   rb: {fileID: 54481594655423626}
   Fire_Smoke: {fileID: 198438650066455290, guid: afdce323f928cab4c9c032a4ab477a6d,
     type: 2}
+  Recoil: 0
+  Coll: {fileID: 0}
   Shot:
   - {fileID: 8300000, guid: 14eeef6a8452f014f814d83449c2c691, type: 3}
   - {fileID: 8300000, guid: 14eeef6a8452f014f814d83449c2c691, type: 3}

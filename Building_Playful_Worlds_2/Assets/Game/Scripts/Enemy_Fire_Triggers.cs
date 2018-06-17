@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Fire_Triggers : MonoBehaviour {
-    public List<Collider> EnemyFireTrigger;
+    /*public List<Collider> EnemyFireTrigger;
 	// Use this for initialization
 	void Start () {
-        Collider[] cols = GetComponents<Collider>();
-        foreach (Collider c in cols)
+        Collider[] Colls = GetComponents<Collider>();
+        foreach (Collider c in Colls)
         {
             EnemyFireTrigger.Add(c);
         }
@@ -19,7 +19,10 @@ public class Enemy_Fire_Triggers : MonoBehaviour {
 	}
     private void OnCollisionEnter(Collision collision)
     {
-        //random event
-
-    }
+        Random.Range (0, 5);
+        if ()
+        {
+            Debug.Log("Fire");
+        }*/
 }
+
