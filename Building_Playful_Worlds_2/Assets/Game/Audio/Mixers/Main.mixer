@@ -80,7 +80,7 @@ AudioMixerSnapshotController:
     5dd52e13f1b83cd4bab70a4b7f1134b4: -29.9
     04bdf9436322b8347aeb0c6cf808621a: -3.2
     8f5c26f3542a22b4aa68d59223eec92a: 0
-    2a7da9855e4fa3d4988b68f350f3a97a: -80
+    2a7da9855e4fa3d4988b68f350f3a97a: 0
     1f49c1e5c3b89a5438844f00208a0853: 11.5
     52dbf266610543341918fcbf080192ab: 0.1
     9c4f7377915a766468686561e3049ff9: 0.01
@@ -97,16 +97,17 @@ AudioMixerSnapshotController:
     0d9151bac14ef3444b161637a73274ee: 0.109
     d1aa4bca36434cf46b8b3b657f8fa168: 0
     2185783bf805b4949acbdd02a03d66e8: -46.2
-    4197b34b3aafd0b43b6bb49163177e85: -1.2
+    4197b34b3aafd0b43b6bb49163177e85: -2.3504467
     28638e9b0586ac04a8a917bffcd25155: 1
-    bec7eb3def4f8e74c9ff43222c21a016: 1
+    33ca484c26a2f6b4f9ad33ad4cd0eda9: 1
+    bec7eb3def4f8e74c9ff43222c21a016: 1.39
     6bafbddd7579fc44ab090eaf63b435ed: 0.44032478
     316f31feaaeeec44db26bb46a8f30324: 0.1
     125ca3fe66866f6498d9c4d5312aaebc: 0
     0981148f9f1cc654495099675b0c240d: 1001
     3b0fc09f50e7048479e8c6e77d5799fd: -73.1
     3b7ad09f63dc55845bdb227bb90a238e: 10
-    486311cf8da0e1043818859fe86bf57c: -12.4
+    486311cf8da0e1043818859fe86bf57c: -10.774821
     832204cf67003534480cd9e721fb6da6: 152
   m_TransitionOverrides: {}
 --- !u!243 &243111182823831388
@@ -179,7 +180,6 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: 244097504330401284}
   - {fileID: 244780099232730222}
-  - {fileID: 244136495002479148}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -267,19 +267,6 @@ AudioMixerEffectController:
   - m_ParameterName: Sidechain Mix
     m_GUID: 8f5c26f3542a22b4aa68d59223eec92a
   m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
---- !u!244 &244136495002479148
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_EffectID: a30839d653298b84c8bcdf0de428d23e
-  m_EffectName: Send
-  m_MixLevel: 2a7da9855e4fa3d4988b68f350f3a97a
-  m_Parameters: []
-  m_SendTarget: {fileID: 244644736150540478}
   m_EnableWetMix: 0
   m_Bypass: 0
 --- !u!244 &244146179286822604

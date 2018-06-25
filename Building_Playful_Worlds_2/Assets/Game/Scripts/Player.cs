@@ -11,21 +11,17 @@ public class Player : MonoBehaviour {
     // Use this for initialization
     void Start () {
         pouder = false;
+        givepouder = false;
 	}
 	
 	// Update is called once per frame
-	public void Update ()
+	void Update ()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit))
-        {
-            EForPickUp.enabled = true;
-        }
-
-
-        if (pouder == true)
+        if(pouder == true)
         {
             givepouder = true;
         }
+
+        
 	}
 }

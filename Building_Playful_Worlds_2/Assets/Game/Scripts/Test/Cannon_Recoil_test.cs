@@ -17,7 +17,7 @@ public class Cannon_Recoil_test : MonoBehaviour
 
     void OnMouseDown()
     {
-        rb.AddForce(-transform.forward * 750);
+        rb.AddForce(-transform.forward * 1000);
     }
 
 }

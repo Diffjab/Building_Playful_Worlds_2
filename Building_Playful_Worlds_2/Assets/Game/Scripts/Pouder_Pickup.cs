@@ -1,25 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pouder_Pickup : MonoBehaviour {
     bool Press_E = false;
     public GameObject PouderCase;
     public bool PouderPlayer;
     public Collider Coll;
-    
+    public Text EForPickUp;
+    public bool givepouder;
+
 
     void Start()
     {
-        PouderPlayer = GetComponent<Player>().pouder;
+        PouderPlayer = PlayerSingleton.instance.GetComponent<Player>().pouder;
         Debug.Log("got it");
+        givepouder = PlayerSingleton.instance.GetComponent<Player>().givepouder;
+
     }
 
     void OnTriggerEnter(Collider Coll)
     {
         Press_E = true;
         Debug.Log("entered");
-        
+        EForPickUp.enabled = true;
     }
 
     void Update()
@@ -31,6 +36,8 @@ public class Pouder_Pickup : MonoBehaviour {
                 PouderPlayer = true;
                 Debug.Log("E Pressed");
                 Pickup();
+                givepouder = true;
+
             }
             
         }
@@ -41,13 +48,16 @@ public class Pouder_Pickup : MonoBehaviour {
     {
         if (PouderPlayer == true)
         {
-            GameObject.Find("Player").GetComponent<Player>().pouder = true;
+            PlayerSingleton.instance.GetComponent<Player>().pouder = true;
+            
             Destroy(gameObject);
             Debug.Log("Pouder!!");
+            EForPickUp.enabled = false;
         }
         if (PouderPlayer == false)
         {
             Debug.Log("no pouderfound");
+
         }
     }
 

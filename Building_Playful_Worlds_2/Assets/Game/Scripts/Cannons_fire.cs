@@ -7,14 +7,14 @@ public enum State { Reload, Fire, Cleaning };
 public class Cannons_fire : MonoBehaviour {
 
     public State Currentstate;
-    
+    public bool FireState = false;
     public bool pouder = false;
     public bool HasFired = false;
     bool Press_E = false;
     public Rigidbody rb;
-    public ParticleSystem Fire_Smoke;
     public int Recoil;
     public Collider Coll;
+    public bool PlayerGive;
 
     Vector3 orignialPosition;
     // Audio
@@ -30,31 +30,50 @@ public class Cannons_fire : MonoBehaviour {
     public float minCooldown = 0.9f;
     public float Fireing = 0.3f;
     public float ReloadTime = 1f;
+
     void Start () {
         
         rb = GetComponent<Rigidbody>();
         orignialPosition = transform.position;
-        Currentstate = State.Reload;
+        pouder = false;
+        PlayerGive = PlayerSingleton.instance.GetComponent<Player>().givepouder;
     }
+    
     void OnTriggerEnter(Collider Coll)
     {
-        Press_E = true;
-        Debug.Log("give pouder");
-
+        PlayerGive = true;
+        
+        if (PlayerGive == true)
+        {
+            Debug.Log("give pouder");
+            Press_E = true;
+           
+        }
+       
+    }
+    void OnTriggerExit(Collider Coll)
+    {
+        PlayerGive = false;
     }
     void Update ()
     {
-        CheckState();
         if (Press_E == true)
         {
-            if (Input.GetKeyDown(KeyCode.E) == true)
+            
+            if (PlayerGive == true)
             {
-
-                pouder = true;
-                Debug.Log("E Pressed + pouder");
+                if (Input.GetKeyDown(KeyCode.E) == true)
+                {
+                    pouder = true;
+                    Debug.Log("E Pressed + pouder");
+                    Press_E = false;
+                }
+                
                 
             }
         }
+        CheckState();
+        
         
     }
 
@@ -76,13 +95,13 @@ public class Cannons_fire : MonoBehaviour {
                 }
                 else
                 {
-                    
-                    
+
+                    FireState = true;
                     int index = Random.Range(0, Shot.Length);
                     Cannon_Shot = Shot[index];
                     int Guns = Random.Range(0, Cannons.Length);
                     Cannons[Guns].PlayOneShot(Cannon_Shot);
-                    Fire_Smoke.enableEmission = true;
+                    
                     rb.AddForce(-transform.forward * Recoil, ForceMode.Force);
                     
                     HasFired = true;
@@ -91,10 +110,10 @@ public class Cannons_fire : MonoBehaviour {
                 if (HasFired == true)
                 {
                     pouder = false;
-                    //Press_E = false;
                     Currentstate = State.Cleaning;
                     coolDown = maxCooldown;
                     HasFired = false;
+                    FireState = false;
                 }
                 break;
                 
