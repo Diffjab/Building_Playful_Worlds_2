@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 114012622054420904}
   - component: {fileID: 114111676605509116}
   - component: {fileID: 54774493108711588}
+  - component: {fileID: 114470131876629040}
   - component: {fileID: 65464984290169408}
   m_Layer: 0
   m_Name: Cannon
@@ -657,11 +658,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1542530034973892}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 199.5398, y: 99.30744, z: 243.12202}
-  m_Center: {x: -3.9265711, y: 66.311935, z: -121.061}
+  m_Size: {x: 199.5398, y: 99.30744, z: 279.68817}
+  m_Center: {x: -3.926574, y: 66.311935, z: -139.34407}
 --- !u!95 &95256181237862948
 Animator:
   serializedVersion: 3
@@ -691,6 +692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Currentstate: 1
+  FireState: 0
   pouder: 0
   HasFired: 0
   rb: {fileID: 54774493108711588}
@@ -721,3 +723,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Auto_Pouder_Time: 1
+--- !u!114 &114470131876629040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542530034973892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b2f8d8274fdf647bcf4bd76346004f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -15,6 +15,7 @@ public class Cannons_fire : MonoBehaviour {
     public int Recoil;
     public Collider Coll;
     public bool PlayerGive;
+    public bool Reloadstate;
 
     Vector3 orignialPosition;
     // Audio
@@ -37,11 +38,15 @@ public class Cannons_fire : MonoBehaviour {
         orignialPosition = transform.position;
         pouder = false;
         PlayerGive = PlayerSingleton.instance.GetComponent<Player>().givepouder;
+        Reloadstate = GetComponent<No_Pouder>().Reload;
     }
     
     void OnTriggerEnter(Collider Coll)
     {
-        PlayerGive = true;
+        if (PlayerSingleton.instance.GetComponent<Player>().givepouder == true)
+        {
+            PlayerGive = true;
+        }
         
         if (PlayerGive == true)
         {
@@ -87,7 +92,7 @@ public class Cannons_fire : MonoBehaviour {
         switch (Currentstate)
         {   // firing the cannon
             case State.Fire:
-
+                Reloadstate = false;
                 if (Fireing > 0)
                 {
                     HasFired = false;
@@ -114,6 +119,7 @@ public class Cannons_fire : MonoBehaviour {
                     coolDown = maxCooldown;
                     HasFired = false;
                     FireState = false;
+
                 }
                 break;
                 
@@ -136,6 +142,7 @@ public class Cannons_fire : MonoBehaviour {
                 
         // reloading the gun
             case State.Reload:
+                Reloadstate = true;
                 if (pouder == false)
                 {
                     ReloadCoolDown = ReloadTime;
@@ -158,6 +165,7 @@ public class Cannons_fire : MonoBehaviour {
                     if (Vector3.Distance(transform.position, orignialPosition) < .01f)
                     {
                         Currentstate = State.Fire;
+                        
                     }
                 }
                 break;

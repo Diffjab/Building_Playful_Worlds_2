@@ -6,51 +6,41 @@ using UnityEngine.SceneManagement;
 
 
 public class Enemy_Victory_Trigger : MonoBehaviour {
-    public bool player;
-    public int timer = 0;
-    private int timerNew;
+    
+    public float timer;
     public Image fadePanel;
     public Color blackColor;
-	// Use this for initialization
-	void Start () {
-
-        player = PlayerSingleton.instance;
-
-		
-	}
-    void OnTriggerEnter(Collider other)
+    // Use this for initialization
+    void Start()
     {
-        player = true;
+        timer = 60;
     }
-    void OnTriggerExit(Collider other)
-    {
-        player = false;
-        timer = timerNew;
-    }
+
     // Update is called once per frame
     void Update() {
-        if (player == true)
+        if (timer > 0)
         {
-            timer = timerNew = 1;
+            
+            timer -= Time.deltaTime * 1.5f;
         }
-        if (timer == 10)
+        else
         {
             StartCoroutine(Death());
-            {
-
-            }
-            
         }
-        
     }
+    
+
     IEnumerator Death()
     {
         float t = 0;
         while (t <= 1)
-        t += Time.deltaTime;
-        fadePanel.color = Color.Lerp(Color.clear, blackColor, t);
-        yield return null;
-        SceneManager.LoadScene(3);
+        {
+            t += Time.deltaTime;
+            fadePanel.color = Color.Lerp(Color.clear, blackColor, t);
+            yield return null;
+        }
+        
+        SceneManager.LoadScene(2);
     }
     
 }

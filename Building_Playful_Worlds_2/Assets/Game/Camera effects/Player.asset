@@ -42,7 +42,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.64
+      intensity: 2.43
       radius: 0.47
       sampleCount: 10
       downsampling: 1
@@ -83,7 +83,7 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       lowPercent: 9.737183
       highPercent: 79.36859
@@ -113,12 +113,12 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.02
-        neutralWhiteIn: 10.48
-        neutralBlackOut: -0.0063
-        neutralWhiteOut: 10
+        neutralBlackIn: -0
+        neutralWhiteIn: 12.8
+        neutralBlackOut: -0.032
+        neutralWhiteOut: 8.7
         neutralWhiteLevel: 4.5
-        neutralWhiteClip: 10
+        neutralWhiteClip: 6.66
       basic:
         postExposure: 0
         temperature: 0
@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 0.7617979, b: 0.45677763, a: 0.22160664}
-          power: {r: 0.92736644, g: 1, b: 0.48148233, a: -0.22160664}
-          offset: {r: 1, g: 0.6900783, b: 0.5131937, a: -0.04432133}
+          slope: {r: 1, g: 0.7912638, b: 0.56372404, a: 0.22160664}
+          power: {r: 0.9803494, g: 1, b: 0.6567439, a: -0.22160664}
+          offset: {r: 1, g: 0.7123064, b: 0.6134011, a: -0.04432133}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
           gamma: {r: 0, g: 0, b: 0, a: 0}
@@ -293,13 +293,13 @@ MonoBehaviour:
       size: 1
       luminanceContribution: 0.8
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
-      smoothness: 0.2
+      intensity: 0.224
+      smoothness: 1
       roundness: 1
       mask: {fileID: 0}
       opacity: 1

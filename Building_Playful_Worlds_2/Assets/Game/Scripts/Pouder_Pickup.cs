@@ -17,14 +17,14 @@ public class Pouder_Pickup : MonoBehaviour {
         PouderPlayer = PlayerSingleton.instance.GetComponent<Player>().pouder;
         Debug.Log("got it");
         givepouder = PlayerSingleton.instance.GetComponent<Player>().givepouder;
-
+        EForPickUp.GetComponent<Text>().enabled = false;
     }
 
     void OnTriggerEnter(Collider Coll)
     {
         Press_E = true;
         Debug.Log("entered");
-        EForPickUp.enabled = true;
+        EForPickUp.GetComponent<Text>().enabled = true;
     }
 
     void Update()
@@ -52,7 +52,7 @@ public class Pouder_Pickup : MonoBehaviour {
             
             Destroy(gameObject);
             Debug.Log("Pouder!!");
-            EForPickUp.enabled = false;
+            EForPickUp.GetComponent<Text>().enabled = false;
         }
         if (PouderPlayer == false)
         {
