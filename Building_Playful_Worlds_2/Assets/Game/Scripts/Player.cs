@@ -7,13 +7,13 @@ public class Player : MonoBehaviour {
     public bool pouder = false;
     public bool givepouder = false;
     public GameObject Cam;
-    public bool GivePouder;
+    //public bool GivePouder;
 
     // Use this for initialization
     void Start () {
         pouder = false;
         givepouder = false;
-        GivePouder = GetComponent<Cannons_fire>().PlayerGive;
+        //GivePouder = GetComponent<Cannons_fire>().PlayerGive;
 	}
 	
 	// Update is called once per frame
@@ -23,11 +23,11 @@ public class Player : MonoBehaviour {
         {
             givepouder = true;
         }
-        if (GivePouder == false)
+        /*if (GivePouder == false)
         {
             pouder = false;
             givepouder = false;
-        }
+        }*/
 
     }
 }

@@ -45871,7 +45871,6 @@ MonoBehaviour:
   pouder: 0
   givepouder: 0
   Cam: {fileID: 1839096506}
-  GivePouder: 0
 --- !u!114 &1449530508
 MonoBehaviour:
   m_ObjectHideFlags: 0
